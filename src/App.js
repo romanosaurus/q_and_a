@@ -26,14 +26,26 @@ class App extends Component {
           <Question
             changeQuestion={this.handleNewQuestion}
             question="🧙‍♂️ + 🐈"
-            answer="Animaux Fantastiques 2"
+            answer="Les Animaux Fantastiques 2"
             questionNbr="1"
           />
           <Question
             changeQuestion={this.handleNewQuestion}
-            question="🧙‍♂️ + "
-            answer="Animaux Fantastiques 2"
+            question="🧜‍♀️ + 🗣️"
+            answer="Le chant des sirènes"
             questionNbr="2"
+          />
+          <Question
+            changeQuestion={this.handleNewQuestion}
+            question="💰 + 👨‍🔧 + 🚀"
+            answer="Iron man"
+            questionNbr="4"
+          />
+          <Question
+            changeQuestion={this.handleNewQuestion}
+            question="🏎️"
+            answer="Conduire une monoplace"
+            questionNbr="5"
           />
         </QuestionWrapper>
       </div>
