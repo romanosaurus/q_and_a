@@ -31,9 +31,15 @@ class App extends Component {
           />
           <Question
             changeQuestion={this.handleNewQuestion}
+            question="🤖 + 🌎"
+            answer="Goldorak"
+            questionNbr="2"
+          />
+          <Question
+            changeQuestion={this.handleNewQuestion}
             question="🧜‍♀️ + 🗣️"
             answer="Le chant des sirènes"
-            questionNbr="2"
+            questionNbr="3"
           />
           <Question
             changeQuestion={this.handleNewQuestion}
